@@ -2,8 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 const Footer = () => {
+
+    const d = new Date();
+    let year = d.getFullYear();
+   
     return (
-        <p>Copyright 2023</p>
+        <footer className="footer">
+            <p>Copyright &Copyright {year}</p>
+        </footer>
+        
     )
 }
 

@@ -1,12 +1,12 @@
-//1. Create a new React app.
-import React from 'react'
-import ReactDOM from 'react-dom'
-import Header from './components/Header'
-import Note from './components/Note'
-import Footer from './components/Footer'
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
 
-ReactDOM.render(<div>
-    <Header />
-    <Note />
-    <Footer />
-</div>, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById("root"));
+
+//Challenge. Render all the notes inside notes.js as a seperate Note
+//component.
+
+// 1. export and import notes from notes.js
+//2. make props to make it possible to render custom pieces of data
+//3. Use map function to make the process of rendering easy.
